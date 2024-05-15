@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import DataForm from '../component/dataForm'
+import DataForm from '../components/dataForm'
 import './App.css'
 
 function App() {
