@@ -1,0 +1,141 @@
+.modal-button {
+    display: flex;
+    margin-left: 1125px;
+    margin-bottom: 20px;
+  }
+  
+  .modal-button button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: limegreen;
+  }
+  .modal {
+    background-color: #46A758;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 450px;
+    height: 400px;
+    z-index: 9999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 9998;
+  }
+  
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #46A758;
+  }
+  .add-form{
+    background-color: #46A758;
+  }
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 10px;
+    background-color: #46A758;
+  }
+  
+  .form-row input {
+    width: 300px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    
+  }
+  
+  .close {
+    cursor: pointer;
+    align-self: flex-end;
+    margin-right: 10px;
+    font-size: 54px;
+    background-color: #46A758;
+  }
+  
+.table-container {
+    background-color: white;
+    width: 900px;
+    margin: 0 auto;
+    height: auto;
+    border: 1px solid limegreen; 
+    border-radius: 5px; 
+    padding: 10px; 
+}
+.table-container table {
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  
+  .table-container th,
+  .table-container td {
+    border: 1px solid limegreen; 
+    padding: 8px; 
+  }
+  
+  .table-container th {
+    background-color: #f2f2f2;
+  }
+  
+  .table-container td {
+    background-color: rgb(255, 255, 255); 
+    font-weight: bold;
+  }
+  .buttons{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .edit-button{
+    width: 80px;
+    border: none;
+    background-color: lightgreen;
+    width: 80px;
+    height: 20px;
+  }
+  .delete-button{
+    background-color: red;
+    color: white;
+    border: none;
+    width: 80px;
+    height: 20px;
+  }
+  .add-data{
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+.generate-reports{
+    background-color: limegreen;
+    border: none;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 300px;
+}
